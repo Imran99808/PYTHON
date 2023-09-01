@@ -1,0 +1,5 @@
+print("inter your number1=")
+var1=input()
+print("inter your number2=")
+var2=input()
+print(int(var1)+int(var2))

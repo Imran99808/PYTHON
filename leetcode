@@ -1,0 +1,13 @@
+list1=[1,4,5,7]
+list2=[2,3,6]
+list3=[]
+for i in range(len(list1)):
+      x=list1[i] #x a list 1 er value gulo assign kora hoice
+    
+      list3.append(x) #list3 thee y er man append kora hoice
+for i in range(len(list2)) :
+    y=list2[i] # y a list 2 er value gulo assign kora hoice
+    list3.append(y) #list3 thee y er man append kora hoice
+    #mainly 2 ta list ke ekta list banano hoice tarpor sort funtion use kora hoice
+list3.sort()        
+print(list3)      
